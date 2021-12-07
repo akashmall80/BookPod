@@ -1,0 +1,513 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+body
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.main
+{
+    width: 70%;
+    height: 200vh;
+    margin: auto;
+    background-color: white;
+}
+.main nav h3
+{
+    display: inline-block;
+    position: relative;
+    left: 70px;
+    top: 3px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.main nav li 
+{
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.main nav li  a 
+{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+.main nav ul li #podcast
+{
+    position: relative;
+    left: 370px;
+}
+.main nav ul li #categories
+{
+    position: relative;
+    left: 300px;
+}
+.main nav ul li #home
+{
+    position: relative;
+    left: 230px;
+}
+.main nav ul input
+{
+    position: relative;
+    right: -430px;
+    padding: 5px 10px;
+    width: 160px;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: rgb(233, 232, 232);
+    text-align: center;
+    color:gray;
+    border: rgb(253, 253, 253) solid 2px ;
+}
+.main nav ul input::placeholder
+{
+    position: relative;
+    left: 20px;
+}
+.main nav ul 
+{
+    position: relative;
+    top: 30px;
+}
+i.gg-search
+{
+    display: inline-block;
+    position: relative;
+    left: 300px;
+    font-size: 10px;
+    height: 15px;
+    width: 15px;
+}
+.para
+{
+    position: relative;
+    top: 150px;
+    left: 150px;
+    width: 70%;
+    margin: auto;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.para h1
+{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.para h1 span
+{
+    color: rgb(1, 1, 136);
+}
+.para2 p 
+{
+    position: relative;
+    left: 50px;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}
+.para2
+{
+    position: relative;
+    top: 20px;
+}
+#p1
+{
+    color: rgb(151, 150, 150);
+}
+#p2
+{
+    color: rgb(165, 164, 164);
+    position: relative;
+    left: 75px;
+}
+#btn
+{
+    position: relative;
+    top: 25px;
+    left: 160px;
+    padding: 10px 25px;
+    background-color: #183ace;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.image img 
+{
+    height: 400px;
+    width: 700px;
+    position: relative;
+    top: 250px;
+    left: 50px;
+    border-radius: 20px;
+  
+}
+.photo .para3
+{
+    position: relative;
+    top: -100px;
+    left: 600px;
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 20px;
+}
+.para3 .content
+{
+    width: 70%;
+    margin: auto;
+    position: relative;
+    top: 30px;
+}
+.para3 .content #img-heading
+{
+    color: rgb(1, 1, 136);
+}
+#para3-h2
+{
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+}
+#para3-h2-2
+{
+    font-size: 30px;
+    font-weight: bolder;
+    position: relative;
+    top: 5px;
+}
+.para3-para
+{
+    color: rgb(206, 206, 206);
+    position: relative;
+    top: 15px;
+    width: 300px;
+}
+.icons
+{
+    height: 100px;
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    top: -100px;
+    left: 700px;
+}
+.icons img  
+{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+#fb 
+{
+    position: relative;
+    left: 110px;
+}
+#insta
+{
+    position: relative;
+    left: 120px;
+}
+#link
+{
+    position: relative;
+    left: 130px;
+}
+.writers
+{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(2, 2, 114);
+    height: 400px;
+    border-radius: 20px;
+}
+.writers h2 
+{
+    color: white;
+    position: relative;
+    top: 35px;
+    font-size: 30px;
+    text-align: center;
+}
+.writers img
+{
+    height: 70px;
+    border-radius: 50%;
+    width: 70px;
+}
+.writers .col1
+{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+.writers .col1 h3
+{
+    color: white;
+    position: relative;
+    top: 33px;
+    left: -90px;
+    display: inline-block;
+}
+.writers .col2
+{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 150px;
+    left: 50px;
+}
+.writers .col2 h3
+{
+    color: white;
+    position: relative;
+    top: 33px;
+    left: -90px;
+    display: inline-block;
+}
+.menu 
+{
+    display: inline-block;
+    visibility: hidden;
+}
+.menu div 
+{
+    display: inline-block;
+    background-color: black;
+    height: 3px;
+    width: 20px;
+
+}
+#one
+{
+    position: relative;
+    top: -7px;
+    left: 30px;
+}
+#two 
+{
+    position: relative;
+    top: -0px;
+    left: 6.1px;
+}
+#three
+{
+    position: relative;
+    top: 7px;
+    left: -17.6px;
+}
+@media (min-width:360px) and (max-width:640px) {
+    .main 
+    {
+        width: 80%;
+        height: 250vh;
+    }
+    .main nav h3
+   {
+        font-size: 17px;
+        position: relative;
+        left: 45px;
+   }
+   .main nav ul input
+   {
+    position: relative;
+    left: 42px;
+    width: 50px;
+    font-size: 5px;
+    text-align: center;
+    top: -22px;
+    visibility: hidden;
+   }
+   i.gg-search
+   {
+    position: relative;
+    left: 0px;
+    font-size: 10px;
+    height: 15px;
+    width: 15px;
+    top: -20px;
+   }
+   .menu
+   {
+       visibility: visible;
+   }
+   .para 
+   {
+       left: 12px;
+   }
+   .para h1 
+   {
+       font-size: 20px;
+   }
+   .para2
+   {
+       position: relative;
+       left: -41px;
+   }
+   .para2 p 
+   {
+       font-size: 13px;
+       left: 42px;
+   }
+   #p2 
+   {
+       position: relative;
+       top: -5px;
+       left: 65px;
+   }
+   #btn 
+   {
+       left: 85px;
+   }
+   .image img
+   {
+    height: 225px;
+    width: 210px;
+   }
+   .photo .para3
+   {
+       left: 70px;
+       width: 176px;
+       height: 171px;
+       top: 188px;
+   }
+   .para3 .content #img-heading
+   {
+       font-size: 10px;
+   }
+   #para3-h2
+   {
+       font-size: 16px;
+   }
+   #para3-h2-2
+   {
+       font-size: 13px;
+   }
+   .para3-para
+   {
+       font-size: 10px;
+       width: 165px;
+   }
+   .icons
+   {
+       left: 0px;
+       top: 205px;
+   }
+   .writers
+   {
+       position: relative;
+       top: 180px;
+       height: 736px;
+   }
+   .even 
+   {
+       position: relative;
+       left: -59px;
+   }
+   .odd
+   {
+       position: relative;
+       left: 100px;
+       top: -66px;
+   }
+   .writers .col1  .even-writer
+   {
+       position: relative;
+       left: -140px;
+       font-size: 12px;
+   }
+   .writers .col1 .odd-writer
+   {
+       position: relative;
+       left: 28px;
+       font-size: 12px;
+       top: -36px;
+   }
+   #gayle
+   {
+    position: relative;
+    left: -60px;
+    top: -60px;
+    font-size: 12px;
+   }
+   #gayle-writer
+   {
+    font-size: 12px;
+    left: -135px;
+    top: -35px;
+   }
+   #jk
+   {
+    position: relative;
+    top: -72px;
+    left: -60px;
+   }
+   .writers .col2 #jk-writer
+   {
+    position: relative;
+    top: -39px;
+    left: -127px;
+    font-size: 12px;
+   }
+   #shashi
+   {
+    position: relative;
+    top: -134px;
+    left: 96px;
+   }
+   #shashi-writer
+   {
+    position: relative;
+    top: -108px;
+    left: 25px;
+    font-size: 12px;
+   }
+   #john
+   {
+    position: relative;
+    top: -142px;
+    left: 95px;
+   }
+   #john-writer
+   {
+    position: relative;
+    top: -112px;
+    left: 25px;
+    font-size: 12px;
+   }
+   .main nav ul li #home
+   {
+    position: relative;
+    left: -135px;
+    top: 30px;
+   }
+   .main nav ul li #categories
+   {
+    position: relative;
+    left: 0px;
+    top: 24px;
+   }
+   .main nav ul li #podcast
+   {
+    position: relative;
+    left: -95px;
+    top: 45px;
+   }
+  .main nav ul span 
+  {
+      visibility: hidden;
+  }
+}
